@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    // 属性和方法
+    var dog={
+        name:'旺财', //键值对
+        age:10,
+        dogFriends:['小黄','小黑','小白'],
+
+        //方法
+        eat:function(){
+            console.log('吃')
+        },
+        run:function(){
+            console.log('跑')
+        },
+    }
+    //属性访问
+    console.log(dog.name);//对象.属性名
+    //更改属性值
+    dog.name='来福'
+    //方法访问
+    console.log(dog.eat());
+    console.log(typeof dog);
+    console.log(dog);
+</script>
+</body>
+</html>
