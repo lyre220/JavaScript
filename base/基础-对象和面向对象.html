@@ -20,16 +20,21 @@
         },
         run:function(){
             console.log('跑')
+            console.log('跑')
         },
     }
     //属性访问
-    console.log(dog.name);//对象.属性名
-    //更改属性值
-    dog.name='来福'
-    //方法访问
-    console.log(dog.eat());
-    console.log(typeof dog);
-    console.log(dog);
+    // console.log(dog.name);//对象.属性名
+    // //更改属性值
+    // dog.name='来福'
+    // //方法访问
+    // dog.eat();
+    // console.log(typeof dog);
+    // console.log(dog);
+    for(key in dog){
+        console.log(key);
+        console.log(dog[key]);
+    }
 </script>
 </body>
 </html>
